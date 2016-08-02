@@ -245,9 +245,4 @@ class form_format {
 		return $value;
 	}
 
-	private function relation($field, $value) {
-
-		return $value;
-	}
-
 } ?>

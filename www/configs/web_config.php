@@ -1,8 +1,8 @@
 <?php
 defined('WWW_ROOT') or exit('No direct script access allowed');
 
-define('COREFRAME_ROOT','D:\WWW\zlyl\coreframe/');//定义核心框架的路径
-define('CACHE_ROOT','D:\WWW\zlyl\caches/');//缓存文件目录
+define('COREFRAME_ROOT','D:\WWW\zlylgm\coreframe/');//定义核心框架的路径
+define('CACHE_ROOT','D:\WWW\zlylgm\caches/');//缓存文件目录
 define('CACHE_EXT','nHIlq');
 
 //勿忘－网站上线后，需要修改下面 3项
@@ -10,8 +10,8 @@ define('OPEN_DEBUG',1);//开启调试模式？1 开启后，将会显示页面�
 define('AUTO_CACHE_TPL',1);//是否自动缓存模版，网站上线后，必须关闭该项
 define('ERROR_REPORT',1);//错误信息现实级别：1 ，显示高级别错误，0 关闭错误提醒（上线后，使用该项） 2 显示所有错误（开发模式）
 
-define('WWW_PATH','/zlyl/www/');//网站安装路径，二级目录形式为：/mydemo/
-define('WEBURL','http://192.168.1.119/zlyl/www/');//网站域名
+define('WWW_PATH','/zlylgm/www/');//网站安装路径，二级目录形式为：/mydemo/
+define('WEBURL','http://192.168.1.119/zlylgm/www/');//网站域名
 
 //Cookie配置
 define('COOKIE_DOMAIN','');//Cookie 作用域
@@ -21,8 +21,8 @@ define('COOKIE_TTL',0); //Cookie 生命周期，0 表示随浏览器进程
 
 //附件相关配置
 define('ATTACHMENT_ROOT',WWW_ROOT.'uploadfile/');
-define('ATTACHMENT_URL','http://192.168.1.119/zlyl/www/uploadfile/');//附件路径
-define('R','http://192.168.1.119/zlyl/www/res/');//静态文件存储目录
+define('ATTACHMENT_URL','http://192.168.1.119/zlylgm/www/uploadfile/');//附件路径
+define('R','http://192.168.1.119/zlylgm/www/res/');//静态文件存储目录
 define('_KEY','hNcEllos'); //密钥,最长8位
 define('LANG','zh-cn');  //网站默认语言包
 

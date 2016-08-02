@@ -8,6 +8,7 @@
         <div class="pull-left topmenunav" id="menu">
             <ul class="pull-left" id="top_menu">
                 <?php
+                //print_r($panels);
                 foreach($panels as $menuid=>$panel) {
                     $selected = $menuid==1 ? 'class="active"' : '';
                     echo '<li><a href="javascript:;" '.$selected.' onclick="PANEL(this,\''.$menuid.'\')">'.$MENU[$menuid].'</a></li>';
